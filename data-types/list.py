@@ -36,14 +36,15 @@
 # # print(list.index("c"))
 # # print(list.replace("C#","Java"))
 
-# list=["marketing","Sales","Support","Dev"]
+list=["marketing","Sales","Support","Dev"]
 # list.sort()
-# list.reverse()
+list.reverse()
+print(list)
 
 # # print(list.reverse())
 # coordinates=(4,5) #tuple is immutable and tuple is like list
 # coordinates[0]=5 not support
 # print(coordinates)
-coordinates= ((3,4),(4,5),(6,7))
-coordinates[0][0]
+# coordinates= ((3,4),(4,5),(6,7))
+# coordinates[0][0]
 
