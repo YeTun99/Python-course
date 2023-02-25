@@ -1,4 +1,4 @@
 name=input("Enter name:")
-reverse=name[-1::-1]
+reverse=name[::-1]
 print(reverse)
 
