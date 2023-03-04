@@ -38,3 +38,10 @@ print((lambda num1,num2,num3:(num1+num2)*num3)(2,3,4))
 
 name= lambda name,message:name+message
 print(name(message="how r u",name="gca"))
+
+x=25 #global 
+def printer():
+    x=50
+    return x
+print(printer(x)) #local ko pae swal
+print(x) #global ko pae swal
