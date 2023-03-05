@@ -35,4 +35,8 @@ def mul(x,y):
     return x*y
 my_list1=[1,2,3,4,5]
 my_list2=[6,7,8,9,10]
-print(list(map(mul,my_list1,my_list2)))
+print(list(map(mul,my_list1,my_list2))) #alter nae multiple select lox ya
+
+from math import sqrt,floor,ceil
+
+print(sqrt(16s))
