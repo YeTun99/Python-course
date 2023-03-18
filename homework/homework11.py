@@ -30,7 +30,7 @@ class Car:
         
 my_car = Car("Toyota", "Corolla", 2021, "blue")
 print("My Car:",my_car.name,my_car.model,my_car.year,my_car.color)
-print(mile=)
+
 my_car.travel_distance(392)
 my_car.accelerate(20)
 my_car.brake(10)
